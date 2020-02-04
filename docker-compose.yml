@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  domaineditor.api:
+    image: ${DOCKER_REGISTRY-}domaineditorapi
+    build:
+      context: .
+      dockerfile: src/DomainEditor.Api/Dockerfile
