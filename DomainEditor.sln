@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainEditor.Api.Tests.Unit
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{36586224-2C62-474B-997E-55F4A873722A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainEditor.Adapters.Persistence.InMemory", "src\Adapters\DomainEditor.Adapters.Persistence.InMemory\DomainEditor.Adapters.Persistence.InMemory.csproj", "{2DC1C5C8-F0FD-4469-A886-26E8F2204DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{36586224-2C62-474B-997E-55F4A873722A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36586224-2C62-474B-997E-55F4A873722A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36586224-2C62-474B-997E-55F4A873722A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC1C5C8-F0FD-4469-A886-26E8F2204DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC1C5C8-F0FD-4469-A886-26E8F2204DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC1C5C8-F0FD-4469-A886-26E8F2204DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC1C5C8-F0FD-4469-A886-26E8F2204DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{62A2F985-3FAC-4F6C-967F-31A522B6954D} = {C475524B-0570-4F45-845B-443EAB4CB77F}
 		{F6E95365-41E0-4B90-92EA-937EF3F84B21} = {164DB66E-BFA6-4256-8540-481A732CC6B1}
 		{FB6275E8-D63F-4340-8B0B-9F0064E8DF27} = {164DB66E-BFA6-4256-8540-481A732CC6B1}
+		{2DC1C5C8-F0FD-4469-A886-26E8F2204DD4} = {DC24F2D1-F54C-4748-8720-11D2FBEB27F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49551F46-0491-4499-990F-20CBB6BCD3BC}

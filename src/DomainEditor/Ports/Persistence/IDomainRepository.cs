@@ -18,10 +18,10 @@ namespace DomainEditor.Ports.Persistence
         /// <param name="cancellationToken"></param>
         /// <returns>Read only collection of <see cref="Domain"/> </returns>
         /// <exception cref="GetDomainException"/>
-        Task<IReadOnlyList<Domain>> GetAsync(CancellationToken cancellationToken = default);
+        Task<IReadOnlyCollection<Domain>> GetAsync(CancellationToken cancellationToken = default);
 
         /// <summary>
-        /// Use for persisting an <see cref="Entity"/> If persist is successful, <see cref="Domain"/> will be returned />
+        /// Use for persisting an <see cref="Entity"/> If persist is successful, <see cref="Domain"/> will be returned
         /// </summary>
         /// <param name="domainName">Name of the domain</param>
         /// <param name="cancellationToken"></param>
